@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Selected and full publication list generated from local bibliography data.
 nav: true
 nav_order: 2

@@ -91,6 +91,9 @@ body.sticky-bottom-footer {
 .profile-scholar {
   margin-top: 0.85rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 0.65rem;
 }
 
 .profile-scholar a {
@@ -115,6 +118,12 @@ body.sticky-bottom-footer {
 
 .profile-scholar i {
   font-size: 1.5rem;
+}
+
+.profile-link-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }
 
 @media (max-width: 767px) {
