@@ -82,10 +82,11 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
+          {% assign self_first_initial = author.first | slice: 0, 1 %}
+          <span class="author-self">
+            {{- self_first_initial }}
             {{ author_last_html -}}
-          </em>
+          </span>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
