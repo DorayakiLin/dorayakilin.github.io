@@ -2,14 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Embodied AI researcher at Shanghai JiaoTong University
+subtitle: Ph.D. student at Shanghai Jiao Tong University, MINT Lab
 
 profile:
   align: right
   image: tao-lin-profile.jpg
   image_circular: true
   more_info: >
-    <p>Shanghai JiaoTong University</p>
+    <p>Shanghai Jiao Tong University</p>
+    <p>School of Artificial Intelligence, MINT Lab</p>
+    <p>Advisor: Prof. Bo Zhao</p>
     <p>Research areas: Embodied AI, Multimodal Learning</p>
     <p>Replace <code>assets/img/tao-lin-profile.jpg</code> to update the portrait</p>
 
@@ -19,23 +21,21 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 10 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  limit: 10 # leave blank to include all the blog posts
 ---
 
-I am **Tao Lin**, an **Embodied AI** researcher at **Shanghai JiaoTong University**. My current work centers on spatial intelligence, vision-language-action models, and robust perception for embodied agents operating in complex environments.
+I am **Tao Lin**, a **first-year Ph.D. student** at **Shanghai Jiao Tong University**, affiliated with the **MINT Lab** in the School of Artificial Intelligence, and advised by **Prof. Bo Zhao**.
 
-I am interested in building systems that connect visual understanding, action, and world modeling. Across recent projects, I have worked on spatial-temporal reasoning benchmarks, lightweight and efficient VLA models, and tools for robotic failure analysis and correction. My public Google Scholar profile also currently tags my work with **Multimodal Learning**.
+My research focuses on **Embodied AI** and **Multimodal Learning**. I am interested in building intelligent systems that connect perception, language, and action, with an emphasis on robust embodied agents operating in complex real-world environments.
 
 
 ## Research Themes
 
-- Spatial intelligence and spatial-temporal understanding
-- Vision-language-action models for embodied agents
-- Efficient inference and model compression for VLA systems
-- Failure analysis and correction in robotics
-- Multimodal learning for embodied systems
+- Embodied AI
+- Multimodal learning
+
