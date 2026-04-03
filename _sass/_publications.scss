@@ -80,8 +80,12 @@
       }
 
       .title {
-        font-weight: bolder;
-        font-size: 1.03rem;
+        font-weight: 650;
+        font-size: 1.1rem;
+        line-height: 1.4;
+        letter-spacing: -0.01em;
+        color: var(--global-text-color);
+        margin-bottom: 0.35rem;
       }
 
       .author {
