@@ -7,3 +7,15 @@
 
 "Vision":
   color: "#009f36"
+
+"ICCV":
+  url: https://iccv.thecvf.com/
+  color: "#b71c1c"
+
+"CVPR":
+  url: https://cvpr.thecvf.com/
+  color: "#0f4c81"
+
+"arXiv":
+  url: https://arxiv.org/
+  color: "#7b1e1e"

@@ -48,11 +48,19 @@ The first version is seeded from the public Google Scholar profile:
 
 ## Placeholders Still In Use
 
-- No portrait image yet
+- Portrait currently uses the public Google Scholar profile image saved at `assets/img/tao-lin-profile.jpg`
 - No public CV PDF yet
 - No public email yet
 - No GitHub profile link yet
 - Publications are seeded from currently visible public Scholar entries and can be expanded later
+
+## Common Content Edits
+
+- Replace the homepage portrait: `assets/img/tao-lin-profile.jpg`
+- Update the homepage bio, subtitle, and affiliation: `_pages/about.md`
+- Add, remove, or edit papers: `_bibliography/papers.bib`
+- Update Scholar citation counts displayed on badges: `_data/citations.yml`
+- Replace paper preview images: add files under `assets/img/publication_preview/` and set the `preview` field in `_bibliography/papers.bib`
 
 ## Local Development Notes
 

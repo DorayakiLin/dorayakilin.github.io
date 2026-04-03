@@ -2,15 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: Embodied AI researcher at Imperial College London
+subtitle: Embodied AI researcher at Shanghai JiaoTong University
 
 profile:
   align: right
+  image: tao-lin-profile.jpg
   image_circular: true
   more_info: >
-    <p>Imperial College London</p>
-    <p>Research area: Embodied AI</p>
-    <p>Google Scholar profile available below</p>
+    <p>Shanghai JiaoTong University</p>
+    <p>Research areas: Embodied AI, Multimodal Learning</p>
+    <p>Replace <code>assets/img/tao-lin-profile.jpg</code> to update the portrait</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,11 +27,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am **Tao Lin**, an **Embodied AI** researcher at **Imperial College London**. My current work centers on spatial intelligence, vision-language-action models, and robust perception for embodied agents operating in complex environments.
+I am **Tao Lin**, an **Embodied AI** researcher at **Shanghai JiaoTong University**. My current work centers on spatial intelligence, vision-language-action models, and robust perception for embodied agents operating in complex environments.
 
-I am interested in building systems that connect visual understanding, action, and world modeling. Across recent projects, I have worked on spatial-temporal reasoning benchmarks, lightweight and efficient VLA models, and tools for robotic failure analysis and correction.
+I am interested in building systems that connect visual understanding, action, and world modeling. Across recent projects, I have worked on spatial-temporal reasoning benchmarks, lightweight and efficient VLA models, and tools for robotic failure analysis and correction. My public Google Scholar profile also currently tags my work with **Multimodal Learning**.
 
-As captured from my public Google Scholar profile on 2026-04-03, my profile currently lists **102 citations**, **h-index 4**, and **i10-index 4**.
+As captured from my public Google Scholar profile on **2026-04-03**, my profile currently lists **102 citations**, **h-index 4**, and **i10-index 4**.
 
 You can start from my [Google Scholar profile](https://scholar.google.com/citations?user=EfsjpFAAAAAJ&hl=zh-CN&authuser=1) for the latest publication record.
 
@@ -40,3 +41,4 @@ You can start from my [Google Scholar profile](https://scholar.google.com/citati
 - Vision-language-action models for embodied agents
 - Efficient inference and model compression for VLA systems
 - Failure analysis and correction in robotics
+- Multimodal learning for embodied systems
