@@ -34,8 +34,7 @@ I am **Tao Lin**, a **first-year Ph.D. student** at **Shanghai Jiao Tong Univers
 My research focuses on **Embodied AI** and **Multimodal Learning**. I am interested in building intelligent systems that connect perception, language, and action, with an emphasis on robust embodied agents operating in complex real-world environments.
 
 
-## Research Themes
+## Research Interests
 
 - Embodied AI
 - Multimodal learning
-
