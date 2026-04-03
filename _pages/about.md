@@ -13,7 +13,7 @@ profile:
     <p>School of Artificial Intelligence, MINT Lab</p>
     <p>Advisor: Prof. Bo Zhao</p>
     <p>Research areas: Embodied AI, Multimodal Learning</p>
-    <p>Replace <code>assets/img/tao-lin-profile.jpg</code> to update the portrait</p>
+
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
