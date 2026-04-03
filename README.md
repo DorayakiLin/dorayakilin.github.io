@@ -14,14 +14,14 @@ Personal academic website scaffolded from [`al-folio`](https://github.com/alshed
 
 For the simplest personal-site deployment, create a GitHub repository named:
 
-- `YOUR_GITHUB_USERNAME.github.io`
+- `dorayakilin.github.io`
 
 Then push the contents of this directory into that repository.
 
 ## Required Edits Before First Public Release
 
-1. In [`_config.yml`](_config.yml), replace:
-   - `url: https://YOUR_GITHUB_USERNAME.github.io`
+1. In [`_config.yml`](_config.yml), confirm:
+   - `url: https://dorayakilin.github.io`
 2. Keep:
    - `baseurl:`
 
@@ -38,7 +38,7 @@ For a personal GitHub Pages site, `baseurl` should stay empty.
 
 After that, the site should publish at:
 
-- `https://YOUR_GITHUB_USERNAME.github.io`
+- `https://dorayakilin.github.io`
 
 ## Content Source For Version 1
 
