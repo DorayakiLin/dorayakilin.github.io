@@ -88,6 +88,35 @@ body.sticky-bottom-footer {
   color: var(--global-text-color-light);
 }
 
+.profile-scholar {
+  margin-top: 0.85rem;
+  text-align: center;
+}
+
+.profile-scholar a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 999px;
+  background: var(--global-card-bg-color);
+  color: var(--global-theme-color);
+  box-shadow: 0 8px 20px rgba(15, 30, 45, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.profile-scholar a:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 12px 24px rgba(15, 30, 45, 0.12);
+  color: var(--global-hover-color);
+}
+
+.profile-scholar i {
+  font-size: 1.5rem;
+}
+
 @media (max-width: 767px) {
   .post {
     padding-top: 1.25rem;
