@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. student at Shanghai Jiao Tong University, School of Artificial Intelligence
 
