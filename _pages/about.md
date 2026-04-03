@@ -31,9 +31,6 @@ I am **Tao Lin**, an **Embodied AI** researcher at **Shanghai JiaoTong Universit
 
 I am interested in building systems that connect visual understanding, action, and world modeling. Across recent projects, I have worked on spatial-temporal reasoning benchmarks, lightweight and efficient VLA models, and tools for robotic failure analysis and correction. My public Google Scholar profile also currently tags my work with **Multimodal Learning**.
 
-As captured from my public Google Scholar profile on **2026-04-03**, my profile currently lists **102 citations**, **h-index 4**, and **i10-index 4**.
-
-You can start from my [Google Scholar profile](https://scholar.google.com/citations?user=EfsjpFAAAAAJ&hl=zh-CN&authuser=1) for the latest publication record.
 
 ## Research Themes
 
