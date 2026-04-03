@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. student at Shanghai Jiao Tong University, MINT Lab
+subtitle: Ph.D. student at Shanghai Jiao Tong University, School of Artificial Intelligence
 
 profile:
   align: right
@@ -29,7 +29,7 @@ latest_posts:
   limit: 10 # leave blank to include all the blog posts
 ---
 
-I am **Tao Lin**, a **first-year Ph.D. student** at **Shanghai Jiao Tong University**, affiliated with the **MINT Lab** in the School of Artificial Intelligence, and advised by **Prof. Bo Zhao**.
+I am **Tao Lin**, a **first-year Ph.D. student** in the **School of Artificial Intelligence** at **Shanghai Jiao Tong University**, advised by **Prof. Bo Zhao**.
 
 My research focuses on **Embodied AI** and **Multimodal Learning**. I am interested in building intelligent systems that connect perception, language, and action, with an emphasis on robust embodied agents operating in complex real-world environments.
 
