@@ -52,10 +52,10 @@
 
         .preview-shell {
           padding: 0.75rem;
-          border: 1px solid #d6e2e8;
+          border: 1px solid color-mix(in srgb, var(--global-divider-color) 74%, var(--global-theme-color) 26%);
           border-radius: 0.9rem;
-          background: #eaf2f5;
-          box-shadow: 0 8px 18px rgba(15, 30, 45, 0.05);
+          background: color-mix(in srgb, var(--global-card-bg-color) 92%, var(--global-theme-color) 8%);
+          box-shadow: 0 6px 14px rgba(15, 30, 45, 0.04);
         }
 
         abbr {
@@ -95,8 +95,8 @@
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+          font-weight: 700;
         }
 
         > span.more-authors {
