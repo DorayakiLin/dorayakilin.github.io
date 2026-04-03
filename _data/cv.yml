@@ -1,0 +1,17 @@
+cv:
+  name: Tao Lin
+  label: Embodied AI Researcher
+  email: ""
+  location: Imperial College London
+  image: ""
+  summary: Public CV details will be added when a finalized version is available.
+
+  social_networks:
+    - network: Google Scholar
+      username: EfsjpFAAAAAJ
+
+  sections:
+    Notes:
+      - title: CV coming soon
+        date: 2026-04-03
+        summary: This placeholder keeps the data file aligned with the customized site until a full CV is provided.
