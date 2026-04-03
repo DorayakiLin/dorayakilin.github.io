@@ -8,11 +8,11 @@ profile:
   align: right
   image: tao-lin-profile.jpg
   image_circular: true
-  more_info: >
-    <p>Shanghai Jiao Tong University</p>
-    <p>School of Artificial Intelligence, MINT Lab</p>
-    <p>Advisor: Prof. Bo Zhao</p>
-    <p>Research areas: Embodied AI, Multimodal Learning</p>
+  # more_info: >
+  #   <p>Shanghai Jiao Tong University</p>
+  #   <p>School of Artificial Intelligence, MINT Lab</p>
+  #   <p>Advisor: Prof. Bo Zhao</p>
+  #   <p>Research areas: Embodied AI, Multimodal Learning</p>
 
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
