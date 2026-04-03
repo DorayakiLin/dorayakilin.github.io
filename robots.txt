@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://dorayakilin.github.io/sitemap.xml
