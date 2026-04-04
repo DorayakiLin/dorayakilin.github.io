@@ -16,8 +16,6 @@ profile:
 
 contact:
   email_obfuscated: taolin200108 [at] gmail [dot] com
-  affiliation: School of Artificial Intelligence, Shanghai Jiao Tong University
-  note: For research discussions and collaborations.
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page

@@ -93,7 +93,7 @@ body.sticky-bottom-footer {
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   gap: 0.65rem;
 }
@@ -106,7 +106,7 @@ body.sticky-bottom-footer {
   width: 2.75rem;
   height: 2.75rem;
   padding: 0;
-  border: 0;
+  border: 1px solid transparent;
   border-radius: 999px;
   background: var(--global-card-bg-color);
   color: var(--global-theme-color);
@@ -135,11 +135,17 @@ body.sticky-bottom-footer {
 }
 
 .profile-contact-menu {
-  position: relative;
+  flex-basis: 100%;
+  margin-top: 0.1rem;
 }
 
 .profile-contact-menu summary {
   list-style: none;
+  margin: 0 auto;
+  color: #a0a7b4;
+  background: transparent;
+  border-color: #d6dbe4;
+  box-shadow: none;
 }
 
 .profile-contact-menu summary::-webkit-details-marker {
@@ -147,24 +153,16 @@ body.sticky-bottom-footer {
 }
 
 .profile-contact-card {
-  position: absolute;
-  top: calc(100% + 0.7rem);
-  left: 50%;
-  z-index: 5;
-  width: min(18rem, 78vw);
+  width: min(19rem, 100%);
+  margin: 0.85rem auto 0;
   padding: 0.95rem 1rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 1rem;
   background: rgba(255, 255, 255, 0.96);
-  box-shadow: 0 16px 32px rgba(15, 30, 45, 0.12);
-  transform: translateX(-50%);
+  box-shadow: 0 12px 24px rgba(15, 30, 45, 0.1);
   text-align: left;
 
   p {
-    margin-bottom: 0.65rem;
-  }
-
-  p:last-child {
     margin-bottom: 0;
   }
 }
@@ -187,12 +185,6 @@ body.sticky-bottom-footer {
   word-break: break-word;
 }
 
-.profile-contact-note {
-  color: var(--global-text-color-light);
-  font-size: 0.85rem;
-  line-height: 1.5;
-}
-
 @media (max-width: 767px) {
   .post {
     padding-top: 1.25rem;
@@ -208,7 +200,7 @@ body.sticky-bottom-footer {
   }
 
   .profile-contact-card {
-    width: min(16rem, 82vw);
+    width: min(17rem, 82vw);
   }
 }
 
