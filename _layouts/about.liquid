@@ -35,32 +35,55 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
-        <div class="profile-scholar">
-          <a
-            href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
-            title="Google Scholar"
-            rel="external nofollow noopener"
-            target="_blank"
-          >
-            <i class="ai ai-google-scholar"></i>
-          </a>
-          <a href="{{ '/assets/pdf/tao-lin-cv.pdf' | relative_url }}" title="Curriculum Vitae" target="_blank" rel="noopener">
-            <span class="profile-link-label">CV</span>
-          </a>
-          {% if page.contact %}
-            <details class="profile-contact-menu">
-              <summary title="Contact Information" aria-label="Contact Information">
+        <div class="profile-actions">
+          <div class="profile-scholar">
+            <a
+              href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+              title="Google Scholar"
+              rel="external nofollow noopener"
+              target="_blank"
+            >
+              <i class="ai ai-google-scholar"></i>
+            </a>
+            <a href="{{ '/assets/pdf/tao-lin-cv.pdf' | relative_url }}" title="Curriculum Vitae" target="_blank" rel="noopener">
+              <span class="profile-link-label">CV</span>
+            </a>
+            {% if page.contact %}
+              <button
+                type="button"
+                class="profile-contact-toggle"
+                aria-controls="profile-contact-card"
+                aria-expanded="false"
+                title="Contact Information"
+                aria-label="Contact Information"
+              >
                 <i class="fa-regular fa-envelope"></i>
-              </summary>
-              <div class="profile-contact-card">
-                {% if page.contact.email_obfuscated %}
-                  <p>
-                    <span class="profile-contact-label">Email</span>
-                    <span class="profile-contact-value">{{ page.contact.email_obfuscated }}</span>
-                  </p>
-                {% endif %}
-              </div>
-            </details>
+              </button>
+            {% endif %}
+          </div>
+          {% if page.contact %}
+            <div id="profile-contact-card" class="profile-contact-menu" hidden>
+              {% if page.contact.email_obfuscated %}
+                <p>
+                  <span class="profile-contact-label">Email</span>
+                  <span class="profile-contact-value">{{ page.contact.email_obfuscated }}</span>
+                </p>
+              {% endif %}
+            </div>
+            <script>
+              (() => {
+                const toggle = document.querySelector(".profile-contact-toggle");
+                const card = document.getElementById("profile-contact-card");
+
+                if (!toggle || !card) return;
+
+                toggle.addEventListener("click", () => {
+                  const expanded = toggle.getAttribute("aria-expanded") === "true";
+                  toggle.setAttribute("aria-expanded", String(!expanded));
+                  card.hidden = expanded;
+                });
+              })();
+            </script>
           {% endif %}
         </div>
       </div>

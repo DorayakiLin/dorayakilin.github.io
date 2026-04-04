@@ -88,8 +88,15 @@ body.sticky-bottom-footer {
   color: var(--global-text-color-light);
 }
 
-.profile-scholar {
+.profile-actions {
   margin-top: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.profile-scholar {
   text-align: center;
   display: flex;
   justify-content: center;
@@ -99,7 +106,7 @@ body.sticky-bottom-footer {
 }
 
 .profile-scholar a,
-.profile-contact-menu summary {
+.profile-contact-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -116,8 +123,8 @@ body.sticky-bottom-footer {
 }
 
 .profile-scholar a:hover,
-.profile-contact-menu summary:hover,
-.profile-contact-menu[open] summary {
+.profile-contact-toggle:hover,
+.profile-contact-toggle[aria-expanded="true"] {
   text-decoration: none;
   transform: translateY(-1px);
   box-shadow: 0 12px 24px rgba(15, 30, 45, 0.12);
@@ -134,27 +141,15 @@ body.sticky-bottom-footer {
   letter-spacing: 0.02em;
 }
 
-.profile-contact-menu {
-  flex-basis: 100%;
-  margin-top: 0.1rem;
-}
-
-.profile-contact-menu summary {
-  list-style: none;
-  margin: 0 auto;
-  color: #a0a7b4;
+.profile-contact-toggle {
   background: transparent;
   border-color: #d6dbe4;
   box-shadow: none;
+  color: var(--global-text-color);
 }
 
-.profile-contact-menu summary::-webkit-details-marker {
-  display: none;
-}
-
-.profile-contact-card {
+.profile-contact-menu {
   width: min(19rem, 100%);
-  margin: 0.85rem auto 0;
   padding: 0.95rem 1rem;
   border: 1px solid var(--global-divider-color);
   border-radius: 1rem;
@@ -199,7 +194,7 @@ body.sticky-bottom-footer {
     margin-bottom: 1.25rem;
   }
 
-  .profile-contact-card {
+  .profile-contact-menu {
     width: min(17rem, 82vw);
   }
 }
