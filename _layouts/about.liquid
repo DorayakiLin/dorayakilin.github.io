@@ -47,6 +47,30 @@ layout: default
           <a href="{{ '/assets/pdf/tao-lin-cv.pdf' | relative_url }}" title="Curriculum Vitae" target="_blank" rel="noopener">
             <span class="profile-link-label">CV</span>
           </a>
+          {% if page.contact %}
+            <details class="profile-contact-menu">
+              <summary title="Contact Information" aria-label="Contact Information">
+                <i class="fa-solid fa-envelope"></i>
+              </summary>
+              <div class="profile-contact-card">
+                {% if page.contact.email_obfuscated %}
+                  <p>
+                    <span class="profile-contact-label">Email</span>
+                    <span class="profile-contact-value">{{ page.contact.email_obfuscated }}</span>
+                  </p>
+                {% endif %}
+                {% if page.contact.affiliation %}
+                  <p>
+                    <span class="profile-contact-label">Affiliation</span>
+                    <span class="profile-contact-value">{{ page.contact.affiliation }}</span>
+                  </p>
+                {% endif %}
+                {% if page.contact.note %}
+                  <p class="profile-contact-note">{{ page.contact.note }}</p>
+                {% endif %}
+              </div>
+            </details>
+          {% endif %}
         </div>
       </div>
     {% endif %}

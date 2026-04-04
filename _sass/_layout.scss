@@ -93,23 +93,31 @@ body.sticky-bottom-footer {
   text-align: center;
   display: flex;
   justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
   gap: 0.65rem;
 }
 
-.profile-scholar a {
+.profile-scholar a,
+.profile-contact-menu summary {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 2.75rem;
   height: 2.75rem;
+  padding: 0;
+  border: 0;
   border-radius: 999px;
   background: var(--global-card-bg-color);
   color: var(--global-theme-color);
   box-shadow: 0 8px 20px rgba(15, 30, 45, 0.08);
+  cursor: pointer;
   transition: transform 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
 }
 
-.profile-scholar a:hover {
+.profile-scholar a:hover,
+.profile-contact-menu summary:hover,
+.profile-contact-menu[open] summary {
   text-decoration: none;
   transform: translateY(-1px);
   box-shadow: 0 12px 24px rgba(15, 30, 45, 0.12);
@@ -126,6 +134,65 @@ body.sticky-bottom-footer {
   letter-spacing: 0.02em;
 }
 
+.profile-contact-menu {
+  position: relative;
+}
+
+.profile-contact-menu summary {
+  list-style: none;
+}
+
+.profile-contact-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.profile-contact-card {
+  position: absolute;
+  top: calc(100% + 0.7rem);
+  left: 50%;
+  z-index: 5;
+  width: min(18rem, 78vw);
+  padding: 0.95rem 1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 16px 32px rgba(15, 30, 45, 0.12);
+  transform: translateX(-50%);
+  text-align: left;
+
+  p {
+    margin-bottom: 0.65rem;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.profile-contact-label {
+  display: block;
+  margin-bottom: 0.2rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--global-text-color-light);
+}
+
+.profile-contact-value {
+  display: block;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: var(--global-text-color);
+  word-break: break-word;
+}
+
+.profile-contact-note {
+  color: var(--global-text-color-light);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
 @media (max-width: 767px) {
   .post {
     padding-top: 1.25rem;
@@ -138,6 +205,10 @@ body.sticky-bottom-footer {
   .profile {
     margin-left: 0;
     margin-bottom: 1.25rem;
+  }
+
+  .profile-contact-card {
+    width: min(16rem, 82vw);
   }
 }
 
