@@ -69,14 +69,14 @@ layout: default
             </div>
             <script>
               (() => {
-                const toggle = document.querySelector(".profile-contact-toggle");
-                const card = document.getElementById("profile-contact-card");
+                const toggle = document.querySelector('.profile-contact-toggle');
+                const card = document.getElementById('profile-contact-card');
 
                 if (!toggle || !card) return;
 
-                toggle.addEventListener("click", () => {
-                  const expanded = toggle.getAttribute("aria-expanded") === "true";
-                  toggle.setAttribute("aria-expanded", String(!expanded));
+                toggle.addEventListener('click', () => {
+                  const expanded = toggle.getAttribute('aria-expanded') === 'true';
+                  toggle.setAttribute('aria-expanded', String(!expanded));
                   card.hidden = expanded;
                 });
               })();
