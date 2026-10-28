@@ -35,16 +35,20 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-sti-bench-has-been-accepted-to-iccv-2025",
+          title: 'Our paper STI-Bench has been accepted to ICCV 2025!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-evo-1-has-been-accepted-to-cvpr-2026",
+          title: 'Our paper Evo-1 has been accepted to CVPR 2026!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-our-paper-robofac-has-been-accepted-to-waica-2026",
+          title: 'Our paper RoboFAC has been accepted to WAICA 2026!',
+          description: "",
+          section: "News",},{id: "news-our-paper-la4vla-is-available-as-an-alibaba-technology-report",
+          title: 'Our paper LA4VLA is available as an Alibaba Technology Report!',
+          description: "",
+          section: "News",},{id: "news-our-papers-evo-depth-and-focusable-monocular-depth-estimation-have-been-accepted-to-neurips-2026",
+          title: 'Our papers Evo-Depth and Focusable Monocular Depth Estimation have been accepted to NeurIPS...',
           description: "",
           section: "News",},{id: "projects-spatial-temporal-world-understanding",
           title: 'Spatial-Temporal World Understanding',
