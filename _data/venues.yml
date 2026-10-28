@@ -16,6 +16,10 @@
   url: https://cvpr.thecvf.com/
   color: "#0f4c81"
 
+"NeurIPS":
+  url: https://neurips.cc/
+  color: "#0f4c81"
+
 "arXiv":
   url: https://arxiv.org/
   color: "#7b1e1e"

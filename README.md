@@ -62,6 +62,27 @@ The first version is seeded from the public Google Scholar profile:
 - Update Scholar citation counts displayed on badges: `_data/citations.yml`
 - Replace paper preview images: add files under `assets/img/publication_preview/` and set the `preview` field in `_bibliography/papers.bib`
 
+## Updating News
+
+The homepage shows the five latest news items above Selected Publications. Click the News heading to see the full archive at `/news/`.
+
+To add an update, create a Markdown file such as `_news/YYYY-MM-DD-short-title.md`:
+
+```markdown
+---
+layout: post
+date: YYYY-MM-DD
+inline: true
+related_posts: false
+---
+
+Your announcement, with **bold text** and [links](https://example.com) if needed.
+```
+
+Use the actual event date. News is displayed newest first; the homepage limit is configured under `announcements` in `_pages/about.md`.
+
+For acceptance news, use the acceptance or notification date rather than the conference date, and add `date_format: "%b %Y"` to display only the month. Evo-1 uses its project announcement date (2026-02-20); STI-Bench and RoboFAC use the official conference notification schedules (2025-06-26 and 2026-07-07). The NeurIPS update retains its confirmed acceptance date (2026-09-25) and also displays only the month. Technical-report news uses the author-confirmed announcement month. LA4VLA displays July 2026; its internal day is only a sorting placeholder to place it above RoboFAC.
+
 ## Local Development Notes
 
 This template currently expects a newer Ruby toolchain than the system Ruby available in this workspace.
